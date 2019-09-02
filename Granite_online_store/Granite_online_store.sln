@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granite_online_store", "Granite_online_store.csproj", "{F504975C-8C9C-4BE1-B036-6614E78E3931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F504975C-8C9C-4BE1-B036-6614E78E3931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F504975C-8C9C-4BE1-B036-6614E78E3931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F504975C-8C9C-4BE1-B036-6614E78E3931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F504975C-8C9C-4BE1-B036-6614E78E3931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C46607F4-9DC2-42F3-9238-D3B9F44D601A}
+	EndGlobalSection
+EndGlobal
