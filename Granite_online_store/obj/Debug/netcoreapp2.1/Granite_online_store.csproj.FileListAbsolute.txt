@@ -35,3 +35,8 @@ C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\De
 C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Home\Privacy.g.cshtml.cs
 C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.g.cshtml.cs
 C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.g.cshtml.cs
+C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Index.g.cshtml.cs
+C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_tableButtonsPartial.g.cshtml.cs
+C:\Users\student\Documents\repos\Granit_Online_Store\Granite_online_store\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\Create.g.cshtml.cs
