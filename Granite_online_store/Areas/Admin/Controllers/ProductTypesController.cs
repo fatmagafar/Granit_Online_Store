@@ -39,5 +39,100 @@ namespace Granite_online_store.Areas.Admin.Controllers
             }
             return View();
         }
+
+        //Edit product type
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            
+            }
+
+            var productType = _db.ProductTypes.Find(id);
+            if (productType == null)
+            {
+                return NotFound();
+
+            }
+            return View(productType);
+        }
+        [HttpPost]
+        public IActionResult Edit(int id ,ProductTypes productTypes)
+        {
+            if (id != productTypes.id)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                _db.Update(productTypes);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(productTypes);
+        }
+        //Details product type
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+
+            }
+
+            var productType = _db.ProductTypes.Find(id);
+            if (productType == null)
+            {
+                return NotFound();
+
+            }
+            return View(productType);
+        }
+        [HttpPost]
+        public IActionResult Details(int id, ProductTypes productTypes)
+        {
+            if (id != productTypes.id)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                _db.Update(productTypes);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(productTypes);
+        }
+        // Delete
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+
+            }
+
+            var productType = _db.ProductTypes.Find(id);
+            if (productType == null)
+            {
+                return NotFound();
+
+            }
+            return View(productType);
+        }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var productType = _db.ProductTypes.Find(id);
+            if (ModelState.IsValid)
+            {
+                _db.ProductTypes.Remove(productType);
+                _db.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View();
+        }
+
     }
 }
