@@ -14,5 +14,6 @@ namespace Granite_online_store.Data
         {
         }
         public DbSet<ProductTypes> ProductTypes { get; set; }       
+        public DbSet<Products> Products { get; set; }       
     }
 }

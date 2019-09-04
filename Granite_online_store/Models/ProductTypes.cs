@@ -13,7 +13,7 @@ namespace Granite_online_store.Models
         public int id { get; set; }
 
         [Required]
-        public String Name{ get; set; }
+        public string Name{ get; set; }
 
     }
 }
